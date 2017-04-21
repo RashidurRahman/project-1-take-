@@ -1,0 +1,385 @@
+/*************
+name    : Rashidur Rahman
+address :
+E-mail  :
+version :;
+**************/
+
+/**********
+Global Css
+***********/
+*{
+	margin: 0;
+	padding:0;
+}
+
+
+body{
+
+	font-family: 'Roboto', sans-serif;
+	margin:0;
+	
+}
+
+
+
+/**********
+banner section
+***********/
+.center{
+	padding-left: 55px;
+
+}
+.back{
+	background-image: url(../images/backgroundImage.png);
+	background-size: cover;
+	height: 600px;
+}
+			
+
+.back h1{
+	padding: 222px 0 10px 55px;
+    color: white;
+    font-weight: 200;
+    font-size: 60px;
+}
+.back h5{
+	color: white;
+    font-size: 10px;
+    font-weight: 200;
+    padding-left: 55px;
+    
+}
+.back p{
+	color: white;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 200;
+	
+}
+ .back .perfect{
+	margin-left: -80px;
+}
+.phn{
+	margin: 0 auto;
+    position: absolute;
+    padding-left: 400px;
+    padding-top: 0px;
+    padding-right: 400px;
+    margin: -300px 40px 0px 200px;
+    
+}
+
+
+.banner-text{
+	
+	float: left;
+
+}
+.banner-text h4{
+	padding-top: 70px;
+	font-size: 30px;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+.banner-text p{
+	font-weight: 100;
+}
+.banner-text-2{
+	font-weight: 100;
+	float: right;
+	padding-top: 230px;
+}
+/**********
+portfolio section
+***********/
+.row{
+	margin-top: 35px;
+}
+.design{
+ background-color: #f5989d;
+ color: white;
+ height: 200px;
+ padding: 20px;
+}
+.built{
+ background-color: #615f7d;
+ color: white;
+ height: 200px;
+ padding: 20px;
+}
+.client{
+	background-image: url(../images/pic-1.png);
+	height: 200px;
+	color: white;
+	padding: 20px;
+	background-size: cover;
+}
+
+.great{
+ background-color: #bd8cbf;
+ color: white;
+ height: 200px;
+ padding: 20px;
+
+}
+.sign{
+background-image: url(../images/pic-2.png);
+height: 200px;
+color: white;
+padding: 20px;
+background-size: cover;
+}
+
+.picture{
+	background-color: #82ca9c;
+	color: white;
+     height: 200px;
+     padding: 20px;
+}
+.start-new{
+	background-image: url(../images/pic-1.png);
+	height: 200px;
+	color: white;
+	padding: 20px;
+	background-size: cover;
+}
+.portfolio button{
+	background:transparent;
+	border:none;
+	font-weight: 600;
+	color: white;
+}
+.portfolio h4{
+	font-size: 25px;
+	font-weight: 300;
+
+}
+.portfolio p{
+	font-weight: 100;
+	font-size: 10px;
+	margin-bottom: 30px;
+}
+.fa-heart-o{
+	float: right;
+	margin-top: 10px;
+}
+.portfolio button:hover{
+	color: #0e8b9a;
+	background:transparent;
+	transition: all 0.5s ;
+}
+.portfolio i:hover{
+	color: red;
+}
+
+/**********
+detail section
+***********/
+
+.detail h2{
+	margin-top: 100px;
+	font-size: 38px;
+	font-weight: 300;
+}
+
+
+/**********
+mid-banner section
+***********/
+.mid-banner{
+	margin-top: 100px;
+	background-color: #82ca9c;
+	padding-bottom: 70px;
+}
+.power h1{
+	margin-top: -32%;
+	color: white;
+	padding-left: 140px;
+	font-size: 45px;
+	font-weight: 100;
+}
+.power p{
+	color: white;
+	font-size: 10px;
+	font-weight: 300;
+	padding-left: 140px;
+	padding-right: 670px;
+}
+.power button{
+	background:transparent;
+	border:none;
+	font-weight: 300;
+	color: white;
+	padding-left: 140px;
+}
+.power button:hover{
+	color: #0e8b9a;
+	background:transparent;
+	transition: all 0.5s ;
+}
+.power i{
+	color: white;
+}
+.power i:hover{
+	color: red;
+}
+.mid-banner .perfect{
+	margin-left: -60px;
+	color: white;
+}
+.mid-banner h3{
+	color: white;
+	padding-left: 17px;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.mid-banner h5{
+	color: white;
+	margin-top: -10px;
+	padding-bottom: 10px;
+
+}
+.web  p{
+	color: white;
+	}
+.team  p{
+	color: white;
+}
+.support p{
+	color: white;
+}
+/**********
+top-foot section
+***********/
+.top-bottom{
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+.go h4{
+	color: #88909b;
+	font-size: 23px;
+	font-weight: 300;
+	padding-top: 50px;
+}
+.go p{
+	color: #b7c3cd;
+	padding-right: 80px;
+	padding-bottom: 10px;
+}
+.go button{
+	background-color: #82ca9c;
+	border:none;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 5px 20px;
+	color: white;
+	margin-bottom: 10px;
+}
+.go button:hover{
+	background-color: green;
+	color:black;
+	transition: all 0.5s;
+}
+.go i{
+	color: gray;
+}
+.go i:hover{
+	color: blue;
+}
+.plan h4{
+	color: #88909b;
+	font-size: 23px;
+	font-weight: 300;
+	padding-top: 18px;
+}
+.plan p{
+	color: #b7c3cd;
+	padding-right: 80px;
+	padding-bottom: 10px;
+}
+.plan button{
+	padding:3px 7px;
+}
+.plan button{
+	background-color: #82ca9c;
+	border:none;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 5px 20px;
+	color: white;
+	margin-bottom: 10px;
+}
+.plan button:hover{
+	background-color: green;
+	color:black;
+	transition: all 0.5s;
+}
+.plan i{
+	color: gray;
+}
+.plan i:hover{
+	color: blue;
+}
+/**********
+footer section
+***********/
+footer{
+	background-color: #192431;
+	padding-bottom: 150px;
+}
+footer h5{
+	color: white;
+	padding-top: 25px;
+}
+.foot-1 h3{
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+	
+.foot-1 p{
+	color: white;
+	font-size: 15px;
+	font-weight: 300;
+	padding-right: 40px; 
+	
+
+}
+.foot-2 h3{
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 60px;
+	padding-bottom: 5px;
+}
+.foot-2 input{
+	padding: 20px 120px;
+	margin-bottom:10px;
+
+}
+.foot-2 i{
+	margin-top: 5px;
+	color: #82ca9c;
+	
+}
+.foot-2 p{
+	color: gray;
+	font-size: 10px;
+	padding-top: 5px;
+}
+.resource {
+	margin-right: 50px;
+	float: left;
+}
+.feature{
+	margin-right: 50px;
+	float: left;
+}
+.how{
+	float: right;
+	margin-top: -38%;
+}
